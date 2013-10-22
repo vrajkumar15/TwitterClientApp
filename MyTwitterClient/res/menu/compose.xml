@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/miCompose"
+        android:orderInCategory="100"
+        android:icon="@drawable/compose"
+        android:onClick="onCompose"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+    
+        <item
+        android:id="@+id/miRefresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/refresh"
+        android:onClick="onRefresh"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+
+</menu>
